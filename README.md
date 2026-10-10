@@ -127,7 +127,7 @@ OortOffice 是一款原生桌面办公套件。它把 Word、Excel、PowerPoint�
 
 ```bash
 # 环境要求：Node.js >= 20、pnpm >= 9、Rust >= 1.78
-git clone https://github.com/oortcloud/oortoffice.git
+git clone https://gitcode.com/OortCloudGroup/OortOffice.git
 cd oortoffice
 pnpm install
 pnpm build            # 构建前端与文档内核
