@@ -1,0 +1,10 @@
+{
+    "url":  "https://gitcode.com/OortCloudGroup/Oort-Office/releases/download/v0.11.0/OortOffice Setup.exe",
+    "name":  "0.11.0",
+    "version":  "0.11.0",
+    "productVersion":  "0.11.0.0",
+    "hash":  "11034403dd2fe9488768e4da61fc045453617a5f",
+    "timestamp":  1791616240059,
+    "sha256hash":  "c54c821b4acb9d4eb3127f817342369a5e2136d3d30457624c4503ae08f54506",
+    "logs":  "## 0.11.0\n\n- OortOffice 桌面端首个版本：统一外壳，首页启动器承载文档与表格模块\n- 新增 OortCloud AI 侧边栏：AI 总结、AI 润色、AI 排版\n- 支持修订追踪、自动保存与多标签页工作区"
+}
