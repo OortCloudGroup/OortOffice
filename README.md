@@ -2,220 +2,222 @@
 
 # OortOffice
 
-**把整套 Office 装进桌面，再把 AI 助手放进侧边栏。**
+**The whole Office suite on your desktop, with an AI assistant right in the sidebar.**
 
-文字处理 · 电子表格 · 演示文稿 · PDF · AI 总结 / 润色 / 排版
+Word Processing · Spreadsheets · Presentations · PDF · AI Summary / Polish / Formatting
 
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-2f6fdb?style=flat-square)](#系统要求)
-[![Version](https://img.shields.io/badge/version-1.0.0-1a9c6b?style=flat-square)](#路线图)
-[![AI](https://img.shields.io/badge/AI-OortCloud-6b4de0?style=flat-square)](#ai-智能总结)
-[![License](https://img.shields.io/badge/license-Proprietary-d97706?style=flat-square)](#许可证)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-2f6fdb?style=flat-square)](#system-requirements)
+[![Version](https://img.shields.io/badge/version-1.0.0-1a9c6b?style=flat-square)](#roadmap)
+[![AI](https://img.shields.io/badge/AI-OortCloud-6b4de0?style=flat-square)](#ai-smart-summary)
+[![License](https://img.shields.io/badge/license-Proprietary-d97706?style=flat-square)](#license)
 
-[产品亮点](#产品亮点) · [界面预览](#界面预览) · [功能清单](#功能清单) · [AI 智能总结](#ai-智能总结) · [快速开始](#快速开始) · [路线图](#路线图)
+[Highlights](#highlights) · [Preview](#preview) · [Feature List](#feature-list) · [AI Smart Summary](#ai-smart-summary) · [Quick Start](#quick-start) · [Roadmap](#roadmap)
+
+English | [简体中文](./README.zh-CN.md)
 
 </div>
 
 ---
 
-## 产品亮点
+## Highlights
 
-OortOffice 是一款原生桌面办公套件。它把 Word、Excel、PowerPoint、PDF 的**全部常用功能点**整合进同一个应用：同一套功能区、同一套文件管理、同一套快捷键，文档之间可以自由复制粘贴与互相引用，不需要在多个窗口之间来回切换。
+OortOffice is a native desktop office suite that brings **all the everyday features** of Word, Excel, PowerPoint and PDF into a single application: one ribbon, one file manager, one set of keyboard shortcuts. Documents can be copy-pasted and cross-referenced freely, with no more jumping between windows.
 
-在完整办公能力之上，OortOffice 加入了 **OortCloud AI 助手**，其中最具代表性的是 **AI 智能总结**——你在侧边栏问一句"总结这篇文档的主要内容和要点"，AI 就会读取当前打开的文档，并把结果整理成分级的结构化摘要，直接显示在侧边栏中，与正文并排对照阅读。
+On top of the complete office experience, OortOffice adds the **OortCloud AI assistant**, whose flagship capability is **AI Smart Summary** — ask it "summarize the main content and key points of this document" in the sidebar, and the AI reads the currently open document, organizes the result into a hierarchical structured summary, and displays it right beside the text for side-by-side reading.
 
-- **一套应用，四种文档**：文字、表格、演示、PDF 共用同一套界面与账户体系。
-- **完整的传统功能区**：文件 / 开始 / 插入 / 绘图 / 设计 / 布局 / 引用 / 审阅 / 视图，逐项对齐 Office 的操作习惯。
-- **AI 就在文档旁边**：总结、润色、排版、问答全部在侧边栏完成，不跳转、不复制粘贴。
-- **修订追踪**：所有 AI 改动可先进入修订模式，人工确认后再接受。
-- **自动保存 + 云端协同**：本地实时落盘，登录后自动同步，支持多人同时编辑。
-
----
-
-## 界面预览
-
-![OortOffice 桌面端界面：文档编辑区与 OortCloud AI 总结侧边栏](assets/oortoffice-ui-preview.png)
-
-> 左侧是 **OortCloud** 侧边栏：输入诉求后，AI 直接对当前打开的 `论坛问题.docx` 做总结，输出按「功能缺陷 / 功能删减与简化」等类别分层的结果，并标注每一条对应的原文位置（如"块0""块4""块13"），点击即可跳转到正文对应段落。右侧是标准文档编辑区，顶部功能区提供 AI 总结、AI 润色、AI 排版 三个入口。
+- **One app, four document types**: text, spreadsheet, presentation and PDF share the same UI and the same account system.
+- **The full classic ribbon**: File / Home / Insert / Draw / Design / Layout / References / Review / View, aligned item by item with Office habits.
+- **AI right next to your document**: summary, polishing, formatting and Q&A all happen in the sidebar — no jumping, no copy-pasting.
+- **Track Changes**: every AI edit can enter revision mode first, and is only accepted after human confirmation.
+- **Auto-save + cloud collaboration**: written to disk in real time locally, synced automatically after sign-in, with multi-user simultaneous editing.
 
 ---
 
-## 功能清单
+## Preview
 
-### 文字处理（对应 Word）
+![OortOffice desktop UI: document editing area with the OortCloud AI summary sidebar](assets/oortoffice-ui-preview.png)
 
-- 富文本编辑：字体、字号、加粗 / 斜体 / 下划线、删除线、上标下标、字体颜色与高亮。
-- 段落排版：多级项目符号与编号、缩进、行距段距、中文版式、首行缩进。
-- 样式体系：内置标题 / 正文样式，**样式窗格**可视化改样式，全文档一键套用。
-- 页面能力：分页分节、页眉页脚、页码、分栏、页面边框与水印、标尺与打印预览。
-- 引用能力：目录自动生成、脚注尾注、题注与交叉引用、参考文献与引文管理。
-- 审阅能力：**修订追踪**、批注、接受 / 拒绝修订、文档比较与合并、限制编辑。
-- 表格与图文：单元格合并拆分、表格样式、图片 / 形状 / SmartArt / 图表 / 文本框混排、环绕方式与对齐。
-- 查找替换：支持通配符与正则、格式查找。
-
-### 电子表格（对应 Excel）
-
-- 千万行级网格虚拟滚动，冻结窗格、分组分级、多工作表与跨表引用。
-- 完整函数库：数学统计、文本、日期时间、查找引用、逻辑、财务、工程函数。
-- 数据能力：排序筛选、条件格式、数据验证、分列、删除重复项。
-- 透视表与透视图、迷你图、数据透视图表联动。
-- 图表全家桶：柱 / 折线 / 饼 / 条形 / 面积 / 散点 / 雷达 / 组合图，样式与数据标签可精细调控。
-- 公式栏、名称管理器、迭代计算、模拟分析与单变量求解。
-
-### 演示文稿（对应 PowerPoint）
-
-- 幻灯片母版与版式、节管理、拖拽式缩略图排序。
-- 版式化排版建议、对齐吸附与智能参考线、选择窗格与图层管理。
-- 切换效果、动画时间轴、自定义放映、排练计时。
-- 演讲者视图、演示者备注、激光笔与墨迹标注。
-
-### PDF 与通用能力
-
-- PDF 阅读、批注、书签、页面管理（拆分 / 合并 / 旋转 / 重排）。
-- Office 文档与 PDF 互转，扫描件 OCR 文字识别。
-- 版本历史与时间线回溯、自动保存与崩溃恢复。
-- 多标签页工作区：一个窗口内并行打开多份文档，标签可拖拽成新窗口。
+> On the left is the **OortCloud** sidebar: after you type your request, the AI summarizes the currently open `论坛问题.docx` and outputs results layered by categories such as "Feature Defects" and "Feature Removal & Simplification", tagging each item with its position in the source text (e.g. "Block 0", "Block 4", "Block 13") so you can click through to the matching paragraph. On the right is the standard document editing area, whose top ribbon provides three entries: AI Summary, AI Polish and AI Formatting.
 
 ---
 
-## AI 智能总结
+## Feature List
 
-这是 OortOffice 1.0 的主打新功能：**把"读一遍再总结"这件事交给侧边栏里的 AI**。
+### Word Processing (Word equivalent)
 
-### 怎么用
+- Rich text editing: font, size, bold / italic / underline, strikethrough, superscript and subscript, font color and highlighting.
+- Paragraph layout: multi-level bullets and numbering, indentation, line and paragraph spacing, Chinese typography conventions, first-line indent.
+- Style system: built-in heading / body styles, a **Styles Pane** for visual style editing, and one-click application across the whole document.
+- Page capabilities: pagination and sections, headers and footers, page numbers, columns, page borders and watermarks, ruler and print preview.
+- Referencing: automatic table of contents, footnotes and endnotes, captions and cross-references, bibliography and citation management.
+- Review: **Track Changes**, comments, accept / reject revisions, document compare and merge, restrict editing.
+- Tables and graphics: cell merge and split, table styles, mixed layout of images / shapes / SmartArt / charts / text boxes, wrapping and alignment.
+- Find and replace: wildcards, regular expressions and format-based search.
 
-1. 打开任意文档（Word / PDF / 表格 / 演示均可）。
-2. 在左侧 OortCloud 输入框里直接提问，例如：
-   - `总结这篇文档的主要内容和要点`
-   - `把这份测试反馈按 Bug / 优化建议分类整理`
-   - `列出文档里所有的待办事项和负责人`
-3. 结果流式输出在侧边栏，正文保持可见，边读总结边对照原文。
-4. 每条结论都带原文定位标记，点击可跳转到对应段落，避免"AI 说的和我看的不是一回事"。
+### Spreadsheets (Excel equivalent)
 
-### 能力边界
+- Virtual scrolling grid at ten-million-row scale, freeze panes, grouping and outlining, multiple worksheets and cross-sheet references.
+- Complete function library: math and statistics, text, date and time, lookup and reference, logical, financial and engineering functions.
+- Data capabilities: sort and filter, conditional formatting, data validation, text to columns, remove duplicates.
+- Pivot tables and pivot charts, sparklines, linked PivotChart.
+- Full chart family: column / line / pie / bar / area / scatter / radar / combo charts, with fine-grained control over styles and data labels.
+- Formula bar, Name Manager, iterative calculation, what-if analysis and Goal Seek.
 
-| 能力 | 说明 |
+### Presentations (PowerPoint equivalent)
+
+- Slide masters and layouts, section management, drag-and-drop thumbnail ordering.
+- Layout-aware formatting suggestions, snap-to-align and smart guides, Selection Pane and layer management.
+- Transitions, animation timeline, custom shows and rehearsal timing.
+- Presenter View, speaker notes, laser pointer and ink annotations.
+
+### PDF and General Capabilities
+
+- PDF reading, annotation, bookmarks, page management (split / merge / rotate / rearrange).
+- Conversion between Office documents and PDF, plus OCR text recognition for scans.
+- Version history and timeline rollback, auto-save and crash recovery.
+- Multi-tab workspace: open several documents side by side in one window, and drag a tab out into a new window.
+
+---
+
+## AI Smart Summary
+
+This is the flagship new feature of OortOffice 1.0: **hand "read it once, then summarize it" over to the AI in the sidebar.**
+
+### How to use
+
+1. Open any document (Word / PDF / spreadsheet / presentation all work).
+2. Type your question directly in the OortCloud input box on the left, for example:
+   - `Summarize the main content and key points of this document`
+   - `Organize this test feedback into Bug / Optimization categories`
+   - `List all the to-do items and owners in the document`
+3. Results stream into the sidebar while the document stays visible, so you can read the summary against the source as you go.
+4. Every conclusion carries a source locator — click it to jump to the matching paragraph, so you never end up with "what the AI said and what I'm reading are not the same thing."
+
+### Capability boundaries
+
+| Capability | Description |
 | --- | --- |
-| 长文档理解 | 突破单次上下文限制，超长文档自动分段总结后再合并去重 |
-| 结构化输出 | 自动识别文档结构，输出分级标题 + 要点列表，而非一段大文字 |
-| 原文可追溯 | 结论附带段落定位，可逐条回跳核对 |
-| 多轮追问 | 基于已总结内容继续追问细节，不必重复上传文档 |
-| 格式无关 | Word、PDF、表格、演示、扫描件统一处理 |
+| Long-document comprehension | Breaks past the single-turn context limit; over-long documents are summarized in segments, then merged and deduplicated |
+| Structured output | Automatically detects document structure and outputs hierarchical headings plus bullet lists, instead of one big blob of text |
+| Traceable to source | Conclusions carry paragraph locators, so you can jump back and verify item by item |
+| Multi-turn follow-up | Ask deeper questions based on what has already been summarized — no need to re-upload the document |
+| Format agnostic | Word, PDF, spreadsheets, presentations and scanned files are all handled uniformly |
 
-### 同一侧边栏里的其他 AI 能力
+### Other AI capabilities in the same sidebar
 
-- **AI 润色**：选中段落改写，支持"更正式 / 更简洁 / 更口语 / 政企公文"等风格指令。
-- **AI 排版**：一键规范标题层级、段落间距、编号体系与全文样式一致性。
-- **AI 问答与代写**：在输入框里描述修改要求或写作要求，光标处直接生成。
-- **修订追踪**：勾选「修订追踪」后，AI 的所有改动以修订形式标出，逐条接受或拒绝。
-- **模型可选**：输入框右侧可切换模型（截图中为 `gpt-5.4`），长文档与轻任务按需选择。
+- **AI Polish**: rewrite the selected paragraph with style instructions such as "more formal / more concise / more conversational / government & enterprise official".
+- **AI Formatting**: normalize heading levels, paragraph spacing, numbering schemes and whole-document style consistency in one click.
+- **AI Q&A and drafting**: describe the edit or the writing you need in the input box, and content is generated right at the cursor.
+- **Track Changes**: with "Track Changes" enabled, all AI modifications are marked as revisions and can be accepted or rejected one by one.
+- **Selectable models**: switch models from the right side of the input box (`gpt-5.4` in the screenshot), choosing per task size.
 
 ---
 
-## 快速开始
+## Quick Start
 
-### 下载安装
+### Download and install
 
-前往 [Releases](../../releases/latest) 下载对应平台安装包：
+Go to [Releases](../../releases/latest) and download the installer for your platform:
 
-| 平台 | 安装包 |
+| Platform | Installer |
 | --- | --- |
 | Windows 10/11 x64 | `OortOffice-1.0.0-win-x64.exe` |
 | macOS 12+ (Apple Silicon / Intel) | `OortOffice-1.0.0-mac-universal.dmg` |
 | Linux x64 (deb / AppImage) | `OortOffice-1.0.0-linux-x64.deb` |
 
-### 从源码构建
+### Build from source
 
 ```bash
-# 环境要求：Node.js >= 20、pnpm >= 9、Rust >= 1.78
+# Requirements: Node.js >= 20, pnpm >= 9, Rust >= 1.78
 git clone https://gitcode.com/OortCloudGroup/OortOffice.git
 cd oortoffice
 pnpm install
-pnpm build            # 构建前端与文档内核
-pnpm tauri build      # 打包桌面端安装包
-pnpm dev              # 开发模式热重载
+pnpm build            # build the frontend and document cores
+pnpm tauri build      # package the desktop installers
+pnpm dev              # dev mode with hot reload
 ```
 
-常用脚本：
+Common scripts:
 
 ```bash
-pnpm test             # 单元测试与格式兼容性用例
-pnpm lint             # 代码规范检查
-pnpm docs:preview     # 本地预览本 README 与产品文档
+pnpm test             # unit tests and format-compatibility cases
+pnpm lint             # code style checks
+pnpm docs:preview     # preview this README and the product docs locally
 ```
 
-### 系统要求
+### System requirements
 
-- **Windows**：Windows 10 1809 及以上，4 GB 内存起，推荐 8 GB。
-- **macOS**：macOS 12 Monterey 及以上。
-- **Linux**：glibc 2.31 及以上的主流发行版，需安装常见中文字体。
-- 使用 AI 功能需登录 OortCloud 账户；纯离线编辑不依赖网络。
+- **Windows**: Windows 10 1809 or later, 4 GB RAM minimum, 8 GB recommended.
+- **macOS**: macOS 12 Monterey or later.
+- **Linux**: mainstream distributions with glibc 2.31 or later; common Chinese fonts required.
+- Using AI features requires signing in to an OortCloud account; purely offline editing does not depend on the network.
 
 ---
 
-## 常用快捷键
+## Common Shortcuts
 
-| 操作 | 快捷键 |
+| Action | Shortcut |
 | --- | --- |
-| 新建 / 打开 / 保存 | `Ctrl+N` / `Ctrl+O` / `Ctrl+S` |
-| 查找 / 替换 | `Ctrl+F` / `Ctrl+H` |
-| 打开 AI 侧边栏 | `Ctrl+Shift+A` |
-| 总结当前文档 | `Ctrl+Shift+S` |
-| 切换修订追踪 | `Ctrl+Shift+E` |
-| 撤销 / 重做 | `Ctrl+Z` / `Ctrl+Y` |
+| New / Open / Save | `Ctrl+N` / `Ctrl+O` / `Ctrl+S` |
+| Find / Replace | `Ctrl+F` / `Ctrl+H` |
+| Open AI sidebar | `Ctrl+Shift+A` |
+| Summarize current document | `Ctrl+Shift+S` |
+| Toggle Track Changes | `Ctrl+Shift+E` |
+| Undo / Redo | `Ctrl+Z` / `Ctrl+Y` |
 
-> macOS 下将 `Ctrl` 替换为 `Cmd`。
+> On macOS, replace `Ctrl` with `Cmd`.
 
 ---
 
-## 技术架构
+## Technical Architecture
 
 ```
 oortoffice/
 ├── apps/
-│   ├── desktop/          # Tauri 桌面壳：窗口、标签页、文件关联、自动更新
-│   └── cloud/            # 账户、同步、协作与 AI 网关
+│   ├── desktop/          # Tauri desktop shell: windows, tabs, file associations, auto-update
+│   └── cloud/            # Accounts, sync, collaboration and AI gateway
 ├── packages/
-│   ├── doc-core/         # 文字排版引擎：分页、断行、样式继承
-│   ├── sheet-core/       # 表格引擎：公式解析、依赖图、增量重算
-│   ├── slide-core/       # 演示引擎：母版、时间轴、渲染
-│   ├── pdf-core/         # PDF 解析、渲染与 OCR
-│   ├── ui-ribbon/        # 功能区、样式窗格、多标签工作区
-│   └── ai-agent/         # OortCloud 助手：分块、召回、结构化总结、修订生成
-└── assets/               # 图标、模板与文档配图
+│   ├── doc-core/         # Text layout engine: pagination, line breaking, style inheritance
+│   ├── sheet-core/       # Spreadsheet engine: formula parsing, dependency graph, incremental recalculation
+│   ├── slide-core/       # Presentation engine: masters, timeline, rendering
+│   ├── pdf-core/         # PDF parsing, rendering and OCR
+│   ├── ui-ribbon/        # Ribbon, styles pane, multi-tab workspace
+│   └── ai-agent/         # OortCloud assistant: chunking, retrieval, structured summary, revision generation
+└── assets/               # Icons, templates and document imagery
 ```
 
-- 文档内核与界面层解耦，同一内核可跑在桌面端与 Web 端。
-- 编辑全程基于增量操作（OT/CRDT），本地优先落盘，联网后增量同步。
-- AI 改动以"修订记录"这一等公民形式进入文档模型，因此天然支持撤销、拒绝与版本回溯。
+- The document cores are decoupled from the UI layer, so the same core runs on both desktop and web.
+- Editing is built entirely on incremental operations (OT/CRDT): local-first persistence, incremental sync once online.
+- AI changes enter the document model as first-class "revision records", which makes undo, rejection and version rollback work naturally.
 
 ---
 
-## 路线图
+## Roadmap
 
-- [x] **1.0** 桌面端发布：文字 / 表格 / 演示 / PDF 全功能，AI 总结、润色、排版与修订追踪
-- [ ] **1.1** 移动端阅读与轻编辑、AI 批量处理多文档
-- [ ] **1.2** 表格与演示的 AI 生成（自然语言出表、出 PPT 初稿）
-- [ ] **1.3** 团队知识库：跨文档检索问答，总结引用外部资料
-- [ ] **2.0** 插件市场与开放 API
+- [x] **1.0** Desktop release: full-featured text / spreadsheet / presentation / PDF, plus AI summary, polish, formatting and Track Changes
+- [ ] **1.1** Mobile reading and light editing, batch AI processing across multiple documents
+- [ ] **1.2** AI generation for spreadsheets and presentations (natural language to a table or a first PPT draft)
+- [ ] **1.3** Team knowledge base: cross-document retrieval Q&A, summaries that cite external sources
+- [ ] **2.0** Plugin marketplace and open APIs
 
 ---
 
-## 贡献
+## Contributing
 
-欢迎提交 Issue 与 Pull Request。参与开发前请阅读 `CONTRIBUTING.md`，并确保：
+Issues and pull requests are welcome. Please read `CONTRIBUTING.md` before you start, and make sure that:
 
-1. 新增功能附带测试用例；
-2. 涉及文档格式的改动需通过格式兼容性用例；
-3. 提交信息遵循 Conventional Commits 规范。
+1. New features come with test cases;
+2. Changes touching document formats pass the format-compatibility cases;
+3. Commit messages follow the Conventional Commits specification.
 
-## 许可证
+## License
 
 Copyright © 2026 OortCloud. All rights reserved.
 
-本仓库为 OortOffice 产品介绍页。产品代码为闭源商业软件，具体授权条款见 `LICENSE`。
+This repository is the product page for OortOffice. The product code is closed-source commercial software; see `LICENSE` for the specific terms.
 
 <div align="center">
 
-**[⬆ 回到顶部](#oortoffice)**
+**[⬆ Back to top](#oortoffice)**
 
 </div>
