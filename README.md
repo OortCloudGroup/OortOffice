@@ -39,6 +39,16 @@ On top of the complete office experience, OortOffice adds the **OortCloud AI ass
 
 > On the left is the **OortCloud** sidebar: after you type your request, the AI summarizes the currently open `论坛问题.docx` and outputs results layered by categories such as "Feature Defects" and "Feature Removal & Simplification", tagging each item with its position in the source text (e.g. "Block 0", "Block 4", "Block 13") so you can click through to the matching paragraph. On the right is the standard document editing area, whose top ribbon provides three entries: AI Summary, AI Polish and AI Formatting.
 
+![OortOffice UI preview 1](assets/oortoffice-ui-preview1.png)
+
+![OortOffice UI preview 2](assets/oortoffice-ui-preview2.png)
+
+![OortOffice UI preview 3](assets/oortoffice-ui-preview3.png)
+
+![OortOffice UI preview 4](assets/oortoffice-ui-preview4.png)
+
+![OortOffice UI preview 5](assets/oortoffice-ui-preview5.png)
+
 ---
 
 ## Feature List

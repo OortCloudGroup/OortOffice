@@ -39,6 +39,16 @@ OortOffice 是一款原生桌面办公套件。它把 Word、Excel、PowerPoint�
 
 > 左侧是 **OortCloud** 侧边栏：输入诉求后，AI 直接对当前打开的 `论坛问题.docx` 做总结，输出按「功能缺陷 / 功能删减与简化」等类别分层的结果，并标注每一条对应的原文位置（如"块0""块4""块13"），点击即可跳转到正文对应段落。右侧是标准文档编辑区，顶部功能区提供 AI 总结、AI 润色、AI 排版 三个入口。
 
+![OortOffice 界面预览 1](assets/oortoffice-ui-preview1.png)
+
+![OortOffice 界面预览 2](assets/oortoffice-ui-preview2.png)
+
+![OortOffice 界面预览 3](assets/oortoffice-ui-preview3.png)
+
+![OortOffice 界面预览 4](assets/oortoffice-ui-preview4.png)
+
+![OortOffice 界面预览 5](assets/oortoffice-ui-preview5.png)
+
 ---
 
 ## 功能清单
